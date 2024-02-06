@@ -1,0 +1,47 @@
+.bubbles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    gap: 170%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bubbleI {
+    background-color: #D9D9D9;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bubbleE {
+    background-color: #D9D9D9;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imgI {
+    background-image: url(../assets/imgI.jpg);
+    background-size: contain;
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.imgE {
+    background-image: url(../assets/imgE.jpg);
+    background-size: contain;
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    margin: 10px;
+}
